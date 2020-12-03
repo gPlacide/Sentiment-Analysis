@@ -8,8 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+
 
 # Introduction
 Donald J Trump, the 45th president of the United States of America, has been the first president to widely use Twitter as a means to reach the masses. Since posting a tweet does not require fact checking or screening of any sort, Donald Trump has the freedom to share what he wants, when he wants. Within the last year, the development of the coronavirus shed brighter light on this matter. Donald Trump was accused to share misinformation about viable medication and other means of preventing and curing the coronavirus. Due to that, he has seen criticism from republicans and democrats all over the country. Twitter itself started labeling Trump’s tweets with a warning so his followers can take it upon themselves to check the facts before blindly consuming.
@@ -46,6 +45,9 @@ The key dates marked are according to ABC News. When the 1st case of COVID-19 wa
 Sentiment analysis is an important tool that can help in many areas. We did our analysis on Donald Trump tweets, but this analysis can be used in so many other avenues. Businesses can use it to track the sentiment of their customers regarding their product or brand and make changes accordingly. For such an analysis, however, one needs some form of natural language data. One of the accessible sources of such data is the Twitter API that gives access to its public data.
 
 As our next step, we would like to do more sentiment analysis using other packages such as the BERTmoticon package that gives a broader range of sentiment based on [the Plutchik wheel of emotions](https://en.wikipedia.org/wiki/Robert_Plutchik). 
+
+```markdown
+Syntax highlighted code block
 ## Header 2
 ### Header 3
 
