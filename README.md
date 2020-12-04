@@ -41,3 +41,5 @@ The key dates marked are according to [ABC News](https://abcnews.go.com/Health/t
 Sentiment analysis is an important tool that can help in many areas. We did our analysis on Donald Trump tweets, but this analysis can be used in so many other avenues. Businesses can use it to track the sentiment of their customers regarding their product or brand and make changes accordingly. For such an analysis, however, one needs some form of natural language data. One of the accessible sources of such data is the [Twitter API](https://developer.twitter.com/en/docs) that gives access to its public data.
 
 As our next step, we would like to do more sentiment analysis using other packages such as the [BERTmoticon package](https://pypi.org/project/bertmoticon/) that gives a broader range of sentiment based on [the Plutchik wheel of emotions](https://en.wikipedia.org/wiki/Robert_Plutchik). 
+
+We would like to express our gratitute to [Professor Mike Izbicki](https://izbicki.me/) for providing guidance and support throughout this project.
