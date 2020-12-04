@@ -18,7 +18,7 @@ In order to get polarity and subjectivity scores, we used [TextBlob](https://tex
 We used TextBlob to get the subjectivity and polarity scores for Trump’s tweets as mentioned above. Although TextBlob allows multiple sentence consumption, we passed Trump's tweets one by one so they don’t influence the results of one another. We used this data in our analysis below.
 
 # Sentiment Analysis
-Below are the graphs demonstrating the change in both polarity and subjectivity of the tweets since May 2009 to June 2020. On both scores we used [moving averages](https://en.wikipedia.org/wiki/Moving_average) to smooth out all the short time variations to get a bigger picture in the variation in polarity and subjectivity. However, using moving averages also takes away extreme values of both sentiments. Hence, the small range of the polarity and subjectivity scores.
+Below are the graphs demonstrating the change in both polarity and subjectivity of the tweets since May 2009 to June 2020. On both scores we used [moving averages](https://en.wikipedia.org/wiki/Moving_average) to smooth out all the short time variations. However, using moving averages also takes away extreme values of both sentiments. Hence, we see a small range of the polarity and subjectivity scores. Below is a graph of our sentiment scores over time.
 
 In both graphs we see heightened drops and rises late 2016 and early 2017 which was around the election and the presidential transition periods. This makes sense as that would be the time that Donald Trump was alternating between supporting his side and discrediting the democrats.
 
