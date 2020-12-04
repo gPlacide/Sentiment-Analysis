@@ -32,7 +32,7 @@ Next, we wanted to check if the subjectivity of Trump's tweets had any correlati
 
 Last, we solely focused on 2020 which was an unprecedented year in general but even more so in the political landscape. The months that led up to the elections were filled with polarized opinions from both political parties, and [COVID-19 pandemic](https://en.wikipedia.org/wiki/Coronavirus) did nothing but heighten that polarization.
 
-![Key dates graph](key dates graph.png)
+![Key dates graph](key%20dates%20graph.png)
 
 The key dates marked are according to [ABC News](https://abcnews.go.com/Health/timeline-coronavirus-started/story?id=69435165). When the 1st case of COVID-19 was confirmed in the US, when Donald Trump declared national emergency, when the US led the world in COVID-19 cases, when Trump signed the $2 trillion stimulus bill, and when the deaths due to COVID-19 reached 100,000 respectively. From the figure we can see for instance how around the time the 1st case was registered and Donald Trump’s tweets had a high positive polarity and subjectivity score.
 
