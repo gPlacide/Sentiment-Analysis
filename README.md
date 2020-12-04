@@ -20,11 +20,19 @@ We used TextBlob to get the subjectivity and polarity scores for Trump’s tweet
 # Sentiment Analysis
 Below are the graphs demonstrating the change in both polarity and subjectivity of the tweets since May 2009 to June 2020. On both scores we used [moving averages](https://en.wikipedia.org/wiki/Moving_average) to smooth out all the short time variations. However, using moving averages also takes away extreme values of both sentiments. Hence, we see a small range of the polarity and subjectivity scores. Below is a graph of our sentiment scores over time.
 
+![Subjectivity](Subjectivity.png)
+
+![Polarity](Polarity.png)
+
 In both graphs we see heightened drops and rises late 2016 and early 2017 which was around the election and the presidential transition periods. This makes sense as that would be the time that Donald Trump was alternating between supporting his side and discrediting the democrats.
 
 Next, we wanted to check if the subjectivity of Trump's tweets had any correlation with the number of retweets from his followers. It is clear with the figure below that on average the more subjective tweets had a higher retweet counts.
 
-Last, we solely focused on 2020 which was an unprecedented year in general but even more so in the political landscape. The months that led up to the elections were filled with polarized opinions from both political parties, and [COVID-19 pandemic](https://en.wikipedia.org/wiki/Coronavirus) did nothing but heighten that polarization. 
+![Subjectivity<>Retweets](Subjectivity<>Retweets.png)
+
+Last, we solely focused on 2020 which was an unprecedented year in general but even more so in the political landscape. The months that led up to the elections were filled with polarized opinions from both political parties, and [COVID-19 pandemic](https://en.wikipedia.org/wiki/Coronavirus) did nothing but heighten that polarization.
+
+![Key_dates_graph](key_dates_graph.png)
 
 The key dates marked are according to [ABC News](https://abcnews.go.com/Health/timeline-coronavirus-started/story?id=69435165). When the 1st case of COVID-19 was confirmed in the US, when Donald Trump declared national emergency, when the US led the world in COVID-19 cases, when Trump signed the $2 trillion stimulus bill, and when the deaths due to COVID-19 reached 100,000 respectively. From the figure we can see for instance how around the time the 1st case was registered and Donald Trump’s tweets had a high positive polarity and subjectivity score.
 
@@ -33,31 +41,3 @@ The key dates marked are according to [ABC News](https://abcnews.go.com/Health/t
 Sentiment analysis is an important tool that can help in many areas. We did our analysis on Donald Trump tweets, but this analysis can be used in so many other avenues. Businesses can use it to track the sentiment of their customers regarding their product or brand and make changes accordingly. For such an analysis, however, one needs some form of natural language data. One of the accessible sources of such data is the [Twitter API](https://developer.twitter.com/en/docs) that gives access to its public data.
 
 As our next step, we would like to do more sentiment analysis using other packages such as the [BERTmoticon package](https://pypi.org/project/bertmoticon/) that gives a broader range of sentiment based on [the Plutchik wheel of emotions](https://en.wikipedia.org/wiki/Robert_Plutchik). 
-
-#![this screenshot](https://github.com/username/repository/blob/branch/path/pic.png)
-
-```markdown
-Syntax highlighted code block
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gPlacide/gplacide.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
